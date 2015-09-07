@@ -3,7 +3,7 @@ import urllib2
 import re
 
 user_agent=('User-Agent','''Mozilla/5.0 (Windows NT 6.1; rv:20.0) Gecko/20100101 Firefox/20.0''')
-url='http://ifrouter.blogspot.com/wp-login.php'
+url='http://www.i3here.com/wp-login.php'
 
 class StopRedirectHandler(urllib2.HTTPRedirectHandler):
      def http_error_301(self,req,fp,code,msg,headers):
